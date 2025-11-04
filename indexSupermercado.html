@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Supermercado</title>
+</head>
+<body>
+  <h1>Supermercado</h1>
+
+  <form>
+    <label>Produto:</label>
+    <input type="text" id="produto" placeholder="Digite o nome do produto">
+    <br><br>
+
+    <label>Preço (R$):</label>
+    <input type="number" id="preco" step="0.01" placeholder="Ex: 9.90">
+    <br><br>
+
+    <button id="btnCalcular">Ver Promoção</button>
+  </form>
+
+  <h3 id="msgProduto"></h3>
+  <p id="msgPromocao"></p>
+
+  <script src="scriptSupermercado.js"></script>
+</body>
+</html>
